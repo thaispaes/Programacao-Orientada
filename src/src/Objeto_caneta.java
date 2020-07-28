@@ -11,9 +11,8 @@ package src;
  */
 public class Objeto_caneta {
     public static void main(String[] args) {
-        Caneta c1 = new Caneta("Bic Cristal","Azul",0.5f,100);
-        Caneta c2 = new Caneta("Bic","Preta",1.0f,70);
-        c1.status();
-        c2.status();
+        ControleRemoto c = new ControleRemoto();
+        c.ligar();
+        c.abrirMenu();
     }
 }
