@@ -3,14 +3,14 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package src.Controle;
+package ControleRemoto;
 
 
 /**
  *
  * @author Thais
  */
-public class Objeto_caneta {
+public class Main {
     public static void main(String[] args) {
         ControleRemoto c = new ControleRemoto();
         c.ligar();
